@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <button onclick="newGame()" id="new-game-btn">NEW GAME</button>
+        </div>
+        <div class="score-container">
+            <div id="home-container">
+                <h3>HOME</h3>
+                <div id="home-Score" class="box-number"></div>
+                <div class="container-add-points">
+                    <button onclick="addOne('home')" class="add-btn">+1</button>
+                    <button onclick="addTwo('home')" class="add-btn">+2</button>
+                    <button onclick="addThree('home')" class="add-btn">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div id="guest-Score" class="box-number"></div>
+                <div class="container-add-points">
+                    <button onclick="addOne('guest')" class="add-btn">+1</button>
+                    <button onclick="addTwo('guest')" class="add-btn">+2</button>
+                    <button onclick="addThree('guest')" class="add-btn">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

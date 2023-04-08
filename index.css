@@ -1,0 +1,87 @@
+
+body{
+    background: #0369A1;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(izuddin-helmi-adnan-UQpTP-KqYRk-unsplash.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 50%;
+    background-image: linear-gradient(#FDA4AF,#0284C7) ;
+    padding: 40px 0;
+    border-radius: 2%;
+}
+
+
+.score-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box-number{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 155px;
+    height: 120px;
+    /* margin: 2rem 0; */
+    background-color: #080001;
+    color: #E11D48;
+    font-size: 90px;
+    line-height: 135px;
+    border: 4px solid whitesmoke;
+    border-radius: 5%;
+}
+
+.container-add-points{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 26px;
+    width:inherit;
+   ;
+}
+
+.add-btn{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F9FAFB;
+    border: 1px solid #F9FAFB;
+    background: transparent;
+    padding:8px 8px;
+    border-radius: 10%;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+}
+
+
+#new-game-btn{
+    
+    font-size: 16px;
+    padding:10px;
+    color: #F9FAFB;
+    border: 1px solid #F9FAFB;
+    background: transparent;
+    border-radius: 5%;
+    
+}
+
+#new-game-btn:hover{
+    font-size:18px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+
+
+ 
+
